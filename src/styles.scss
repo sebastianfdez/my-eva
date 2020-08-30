@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/scss/home-page.scss";
+
+:root {
+  --stripe-size: 100px;
+  --color1: #000000;
+  --color2: #FFFFFF;
+  --duration: 2s;
+}
+
+body {
+  display: -webkit-box;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
