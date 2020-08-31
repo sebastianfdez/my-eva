@@ -3,8 +3,8 @@
 
 :root {
   --stripe-size: 100px;
-  --color1: #000000;
-  --color2: #FFFFFF;
+  --color1: #FFFFFF;
+  --color2: #000000;
   --duration: 2s;
 }
 
@@ -15,4 +15,14 @@ body {
   overflow: hidden;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+  font-family: 'Gore Regular';
+  src: url('assets/fonts/Gore Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BladeBrotherhood';
+  src: url('assets/fonts/BladeBrotherhood.otf') format('opentype');
 }
